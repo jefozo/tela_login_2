@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="login.php" class="tela">
+        <h1>Login</h1>
+        <label for="inome"></label>
+        <input type="text" name="nome" id="inome" placeholder="Nome" required minlength="4" maxlength="16" class="input">
+        <br><br>
+        <label for="isenha"></label>
+        <input type="password" name="senha" id="isenha" placeholder="Senha" required minlength="4" maxlength="16" class="input">
+        <br><br>
+        <input type="submit" value="Entrar" class="submit">
+    </form>
+</body>
+</html>
